@@ -1,7 +1,12 @@
 # genetic-algorithm-example
 Simple example usage of DEAP (Distributed Evolutionary Algorithms in Python)
 
-Expected output of `maximize_sum.py`:
+### Installation
+```
+pip install deap
+```
+
+### Expected output of `maximize_sum.py`:
 ```
 gen	nevals	avg   	std    	min	max
 0  	1000  	49.933	5.15524	35 	68 

@@ -52,7 +52,7 @@ stats.register('min', np.min)
 stats.register('max', np.max)
 
 # Set crossing probability, mutation probability, and number of generations
-cxpb, mutpb, ngen = 0.5, 0.2, 100
+cxpb, mutpb, ngen = 0.5, 0.2, 50
 
 # Perform genetic algorithm
 algorithms.eaSimple(population, toolbox, cxpb=cxpb, mutpb=mutpb, ngen=ngen, stats=stats, halloffame=hof)
